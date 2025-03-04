@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: default-route-openshift-image-registry.apps.utspoc.utsocp.com/dev-cicd-mvn/myapp:latest
+        image: image-registry.apps.utspoc.utsocp.com:5000/dev-cicd-mvn/myapp:latest
         ports:
         - containerPort: 8090
         env:
